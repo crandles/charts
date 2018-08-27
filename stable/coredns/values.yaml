@@ -85,6 +85,11 @@ affinity: {}
 #     effect: NoSchedule
 tolerations: []
 
+
+## Node labels for pod assignment
+## ref: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#nodeselector
+nodeSelector: {}
+
 # configure custom zone files as per https://coredns.io/2017/05/08/custom-dns-entries-for-kubernetes/
 zoneFiles: []
 #  - filename: example.db
